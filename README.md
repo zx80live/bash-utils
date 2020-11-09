@@ -8,11 +8,11 @@ $ cd ./bash-utils
 
 
 
-### utils_text
+### util_text
 
 ```bash
-# import utils_text
-$ source utils_text
+# import util_text
+$ source util_text
 ```
 
 
