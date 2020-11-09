@@ -23,13 +23,13 @@ $ strformats
 
 
 
-![image-20201109202710823](/home/pav/.config/Typora/typora-user-images/image-20201109202710823.png)
+![image-20201109202710823](https://raw.githubusercontent.com/zx80live/zx80live.github.io/master/img/bash-utils/strformats_example_1.png)
 
 ```bash
 $ strformat "Hello, World" CYAN BOLD ITALIC
 ```
 
-![image-20201109203059108](/home/pav/.config/Typora/typora-user-images/image-20201109203059108.png)
+![image-20201109203059108](https://raw.githubusercontent.com/zx80live/zx80live.github.io/master/img/bash-utils/strformat_example_1.png)
 
 ```bash
 $ strlen "Hello, World"
