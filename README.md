@@ -1,5 +1,4 @@
 # bash-utils
-Cullection of utilities, facades, etc.
 
 ```bash
 $ git clone https://github.com/zx80live/bash-utils
@@ -97,4 +96,3 @@ B
 C
 D
 ```
-
