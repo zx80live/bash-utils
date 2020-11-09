@@ -6,7 +6,34 @@ $ cd ./bash-utils
 
 ```
 
+### util_logs
 
+```bash
+# import util_logs
+$source util_logs
+```
+
+```bash
+$ log_info 'some log info string'
+```
+
+![image-20201109210636121](https://raw.githubusercontent.com/zx80live/zx80live.github.io/master/img/bash-utils/log_info_example_1.png)
+
+```bash
+$ log_err 'some err string'
+```
+
+![image-20201109210744075](https://raw.githubusercontent.com/zx80live/zx80live.github.io/master/img/bash-utils/log_err_example_1.png)
+
+```bash
+$ log_debug 'some debug string'
+# there is nothing in output, because log_level variable is LOG_LEVEL_INFO by default
+
+$ export log_level=$LOG_LEVEL_DEBUG
+$ log_debug 'some debug string'
+```
+
+![image-20201109211020220](https://raw.githubusercontent.com/zx80live/zx80live.github.io/master/img/bash-utils/log_debug_example_1.png)
 
 ### util_text
 
