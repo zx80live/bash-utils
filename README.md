@@ -6,11 +6,28 @@ $ cd ./bash-utils
 
 ```
 
+### util_files
+
+```bash
+# import util_files
+$ source util_files
+```
+
+```bash
+# create nested dirs if it isn't exist
+$ touch_dir '/a/b/c/d/e/f'
+```
+
+```bash
+# create file if it isn't exist including all nested dirs in its path
+$ touch_file '/a/b/c/d/e/f/hello.txt'
+```
+
 ### util_logs
 
 ```bash
 # import util_logs
-$source util_logs
+$ source util_logs
 ```
 
 ```bash
@@ -42,13 +59,10 @@ $ log_debug 'some debug string'
 $ source util_text
 ```
 
-
-
 ```bash
+# list of available formats
 $ strformats
 ```
-
-
 
 ![image-20201109202710823](https://raw.githubusercontent.com/zx80live/zx80live.github.io/master/img/bash-utils/strformats_example_1.png)
 
@@ -64,7 +78,7 @@ $ strlen "Hello, World"
 ```
 
 ```bash
-$ substring "r" 10 3
+$ substring "0123456789ABCDEFGH" 10 3
 ABC
 ```
 
