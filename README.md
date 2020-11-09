@@ -1,2 +1,2 @@
 # bash-utils
-Cullection of utilities, facades, etc.
+Collection of utilities, facades, etc.
